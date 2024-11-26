@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <style>
     *{
       font-family: 'Poppins', sans-serif;
@@ -29,7 +30,7 @@
     }
   </style>
 </head>
-<body>
+<body class="bg-light">
   <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Hotel</a>
@@ -161,7 +162,45 @@
       </div>
     </div>
   </div>
+  
+  <!-- Carousel -->
+  <div class="container-fluid px-lg-4 mt-4">
+    <div class="swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/carousel/1.png" class="w-100 d-block" alt="...">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/2.png" class="w-100 d-block" alt="...">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/3.png" class="w-100 d-block" alt="...">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/4.png" class="w-100 d-block" alt="...">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/5.png" class="w-100 d-block" alt="...">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/6.png" class="w-100 d-block" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      effect: "fade",
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      }
+    });
+  </script>
 </body>
 </html>
