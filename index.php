@@ -132,56 +132,13 @@
                 Room heater
               </span>
             </div>
-            <div class="rating mb-4">
-              <h6 class="mb-1">Rating</h6>
-              <span class="badge rounded-pill bg-light">
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-              </span>
-            </div>
-            <div class="d-flex justify-content-evenly mb-2">
-              <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
-              <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 my-3">
-        <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-          <img src="images/rooms/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5>Simple Room Name</h5>
-            <h6 class="mb-4">$20 per night</h6>
-            <div class="features mb-4">
-              <h6 class="mb-1">Features</h6>
+            <div class="guests mb-4">
+              <h6 class="mb-1">Guests</h6>
               <span class="badge rounded-pill bg-light text-dark text-wrap">
-                2 Rooms
+                5 Adults
               </span>
               <span class="badge rounded-pill bg-light text-dark text-wrap">
-                1 Bathroom
-              </span>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                1 Balcony
-              </span>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                3 Sofa
-              </span>
-            </div>
-            <div class="facilities mb-4">
-              <h6 class="mb-1">Facilities</h6>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                Wifi
-              </span>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                Parking
-              </span>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                Air Condition
-              </span>
-              <span class="badge rounded-pill bg-light text-dark text-wrap">
-                Room heater
+                4 Childern
               </span>
             </div>
             <div class="rating mb-4">
@@ -234,6 +191,76 @@
               </span>
               <span class="badge rounded-pill bg-light text-dark text-wrap">
                 Room heater
+              </span>
+            </div>
+            <div class="guests mb-4">
+              <h6 class="mb-1">Guests</h6>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                5 Adults
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                4 Childern
+              </span>
+            </div>
+            <div class="rating mb-4">
+              <h6 class="mb-1">Rating</h6>
+              <span class="badge rounded-pill bg-light">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </span>
+            </div>
+            <div class="d-flex justify-content-evenly mb-2">
+              <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+              <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 my-3">
+        <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+          <img src="images/rooms/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Simple Room Name</h5>
+            <h6 class="mb-4">$20 per night</h6>
+            <div class="features mb-4">
+              <h6 class="mb-1">Features</h6>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                2 Rooms
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                1 Bathroom
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                1 Balcony
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                3 Sofa
+              </span>
+            </div>
+            <div class="facilities mb-4">
+              <h6 class="mb-1">Facilities</h6>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                Wifi
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                Parking
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                Air Condition
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                Room heater
+              </span>
+            </div>
+            <div class="guests mb-4">
+              <h6 class="mb-1">Guests</h6>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                5 Adults
+              </span>
+              <span class="badge rounded-pill bg-light text-dark text-wrap">
+                4 Childern
               </span>
             </div>
             <div class="rating mb-4">
@@ -356,7 +383,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
-      <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19012.58088221806!2d106.69019515597192!3d10.863584409285528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529c17978287d%3A0xec48f5a17b7d5741!2sNguyen%20Tat%20Thanh%20University%20-%20Campus%20District%2012!5e0!3m2!1sen!2s!4v1732644696049!5m2!1sen!2s" loading="lazy"></iframe>
+        <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19012.58088221806!2d106.69019515597192!3d10.863584409285528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529c17978287d%3A0xec48f5a17b7d5741!2sNguyen%20Tat%20Thanh%20University%20-%20Campus%20District%2012!5e0!3m2!1sen!2s!4v1732644696049!5m2!1sen!2s" loading="lazy"></iframe>
       </div>
       <div class="col-lg-4 col-md-4">
           <div class="bg-white p-4 rounded mb-4">
