@@ -12,10 +12,15 @@
 </head>
 <body class="bg-light">
   
-	<div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between">
-		<h3 class="mb-0">ADMIN PANEL</h3>
-		<a href="logout.php" class="btn btn-light btn-sm">LOGOUT</a>
-	</div>
+  <?php require('inc/header.php'); ?>
+
+  <div class="container-fluid" id="main-content">
+    <div class="row">
+      <div class="col-lg-10 ms-auto p-4 overflow-hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quae voluptate molestias consequuntur veniam doloribus et, itaque officiis quo reiciendis? Explicabo doloribus dicta vero, illo tempore iusto nam adipisci est.
+      </div>
+    </div>
+  </div>
 
   <?php require('inc/scripts.php'); ?>
 </body>
