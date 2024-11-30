@@ -1,5 +1,5 @@
 <div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top">
-  <h3 class="mb-0">HOTEL</h3>
+  <h3 class="mb-0 h-font">HOTEL</h3>
   <a href="logout.php" class="btn btn-light btn-sm">LOGOUT</a>
 </div>
 
@@ -19,7 +19,10 @@
             <a href="rooms.php" class="nav-link text-white">Rooms</a>
           </li>
           <li class="nav-item">
-            <a href="user_queries.php" class="nav-link text-white">User Queries</a>
+            <a href="user_queries.php" class="nav-link text-white">Users</a>
+          </li>
+          <li class="nav-item">
+            <a href="settings.php" class="nav-link text-white">Settings</a>
           </li>
         </ul>
       </div>
