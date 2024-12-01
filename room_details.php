@@ -27,8 +27,6 @@
     $room_data = mysqli_fetch_assoc($room_res);
   ?>
 
-
-
   <div class="container">
     <div class="row">
 

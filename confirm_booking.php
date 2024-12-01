@@ -51,9 +51,7 @@
     $user_data = mysqli_fetch_assoc($user_res);
 
   ?>
-
-
-
+  
   <div class="container">
     <div class="row">
 

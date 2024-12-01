@@ -11,20 +11,15 @@
 
   <?php 
     require('inc/header.php'); 
-
     if(!(isset($_SESSION['login']) && $_SESSION['login']==true)){
       redirect('index.php');
     }
-
     $u_exist = select("SELECT * FROM `user_cred` WHERE `id`=? LIMIT 1",[$_SESSION['uId']],'s');
-
     if(mysqli_num_rows($u_exist)==0){
       redirect('index.php');
     }
-
     $u_fetch = mysqli_fetch_assoc($u_exist);
   ?>
-
 
   <div class="container">
     <div class="row">
@@ -37,7 +32,6 @@
           <a href="#" class="text-secondary text-decoration-none">Hồ sơ cá nhân</a>
         </div>
       </div>
-
       
       <div class="col-12 mb-5 px-4">
         <div class="bg-white p-3 p-md-4 rounded shadow-sm">
