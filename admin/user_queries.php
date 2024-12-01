@@ -60,7 +60,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel - User Queries</title>
+  <title>Trang quản lý - User Queries</title>
   <?php require('inc/links.php'); ?>
 </head>
 <body class="bg-light">
@@ -77,10 +77,10 @@
 
             <div class="text-end mb-4">
               <a href="?seen=all" class="btn btn-dark rounded-pill shadow-none btn-sm">
-                <i class="bi bi-check-all"></i> Mark all read
+                <i class="bi bi-check-all"></i> Đã xem tất cả
               </a>
               <a href="?del=all" class="btn btn-danger rounded-pill shadow-none btn-sm">
-                <i class="bi bi-trash"></i> Delete all
+                <i class="bi bi-trash"></i> Xoá tất cả
               </a>
             </div>
 

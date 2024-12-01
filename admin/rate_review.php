@@ -60,7 +60,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel - Ratings & Reviews</title>
+  <title>Trang quản lý - Đánh giá</title>
   <?php require('inc/links.php'); ?>
 </head>
 <body class="bg-light">
@@ -70,17 +70,17 @@
   <div class="container-fluid" id="main-content">
     <div class="row">
       <div class="col-lg-10 ms-auto p-4 overflow-hidden">
-        <h3 class="mb-4">RATINGS & REVIEWS</h3>
+        <h3 class="mb-4">Đánh giá</h3>
 
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body">
 
             <div class="text-end mb-4">
               <a href="?seen=all" class="btn btn-dark rounded-pill shadow-none btn-sm">
-                <i class="bi bi-check-all"></i> Mark all read
+                <i class="bi bi-check-all"></i> Đã xem tất cả
               </a>
               <a href="?del=all" class="btn btn-danger rounded-pill shadow-none btn-sm">
-                <i class="bi bi-trash"></i> Delete all
+                <i class="bi bi-trash"></i> Xoá tất cả
               </a>
             </div>
 
