@@ -1,42 +1,52 @@
-:root {
-  --teal: #2ec1ac;
-  --teal_hover: #279e8c;
-}
-* {
-    font-family: 'Poppins', sans-serif;
-}
-.h-font {
-  font-family: 'Ubuntu', sans-serif;
+:root{
+  --teal: #2D6A4F;
+  --teal_hover: #2D6A4F;
 }
 
-/* Chrome, Safari, Edge, Opera */
+*{
+  font-family: 'Lato', sans-serif;
+}
+.h-font{
+  font-family: 'Merriweather', serif;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-/* Firefox */
+
 input[type=number] {
   -moz-appearance: textfield;
 }
 
-.custom-bg {
+.custom-bg{
   background-color: var(--teal);
   border: 1px solid var(--teal);
 }
-.custom-bg:hover {
+.custom-bg:hover{
   background-color: var(--teal_hover);
   border-color: var(--teal_hover);
 }
 
-.h-line {
+.h-line{
   width: 150px;
   margin: 0 auto;
   height: 1.7px;
 }
 
-.custom-alert {
+.custom-alert{
   position: fixed;
-  top: 25px;
+  top: 80px;
   right: 25px;
+  z-index: 1111;
 }
+
+/* 
+Color pallete: Eco-Friendly Stay
+
+•	Primary: Forest green (#2D6A4F)
+•	Secondary: Light moss green (#B7E4C7)
+•	Accent: Cream (#FFF8E1)
+•	Background: Earthy tan (#DDA15E)
+*/

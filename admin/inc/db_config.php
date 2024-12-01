@@ -3,7 +3,7 @@
   $hname = 'localhost';
   $uname = 'root';
   $pass = '';
-  $db = 'hotel-booking';
+  $db = 'vietchill';
 
   $con = mysqli_connect($hname, $uname, $pass, $db);
 
