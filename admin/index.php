@@ -61,7 +61,7 @@
         redirect('dashboard.php');
       }
       else{
-        alert('error','Login failed - Invalid Credentials!');
+        alert('error','Đăng nhập thất bại!');
       }
     }
   

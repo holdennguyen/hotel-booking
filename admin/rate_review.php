@@ -11,20 +11,20 @@
       $q = "UPDATE `rating_review` SET `seen`=?";
       $values = [1];
       if(update($q,$values,'i')){
-        alert('success','Marked all as read!');
+        alert('success','Đã xem tất cả đánh giá!');
       }
       else{
-        alert('error','Operation Failed!');
+        alert('error','Thao tác thất bại!');
       }
     }
     else{
       $q = "UPDATE `rating_review` SET `seen`=? WHERE `sr_no`=?";
       $values = [1,$frm_data['seen']];
       if(update($q,$values,'ii')){
-        alert('success','Marked as read!');
+        alert('success','Đã xem đánh giá!');
       }
       else{
-        alert('error','Operation Failed!');
+        alert('error','Thao tác thất bại!');
       }
     }
   }
@@ -36,20 +36,20 @@
     if($frm_data['del']=='all'){
       $q = "DELETE FROM `rating_review`";
       if(mysqli_query($con,$q)){
-        alert('success','All data deleted!');
+        alert('success','Đã xoá tất cả đánh giá!');
       }
       else{
-        alert('error','Operation failed!');
+        alert('error','Thao tác thất bại!');
       }
     }
     else{
       $q = "DELETE FROM `rating_review` WHERE `sr_no`=?";
       $values = [$frm_data['del']];
       if(delete($q,$values,'i')){
-        alert('success','Data deleted!');
+        alert('success','Đã xoá đánh giá!');
       }
       else{
-        alert('error','Operation failed!');
+        alert('error','Thao tác thất bại!');
       }
     }
   }

@@ -23,7 +23,7 @@
     echo<<<alertbar
       <div class='bg-danger text-center p-2 fw-bold'>
         <i class="bi bi-exclamation-triangle-fill"></i>
-        Bookings are temporarily closed!
+        Tạm thời không hỗ trợ đặt phòng!
       </div>
     alertbar;
   }

@@ -103,10 +103,10 @@
 
       $res = insert($q,$values,'ssss');
       if($res==1){
-        alert('success','Mail sent!');
+        alert('success','Email đã được gửi đi!');
       }
       else{
-        alert('error','Server Down! Try again later.');
+        alert('error','Hệ thống đang được bảo trì! Hãy thử lại sau ít phút.');
       }
     }
   ?>

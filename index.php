@@ -414,7 +414,7 @@
         showModal;
       }
       else{
-        alert("error","Invalid or Expired Link !");
+        alert("error","Liên kết không còn khả dụng!");
       }
 
     }
@@ -490,10 +490,10 @@
 
       xhr.onload = function(){
         if(this.responseText == 'failed'){
-          alert('error',"Account reset failed!");
+          alert('error',"Khôi phục tài khoản thất bại!");
         }
         else{
-          alert('success',"Account Reset Successful !");
+          alert('success',"Khôi phục tài khoản thành công!");
           recovery_form.reset();
         }
       }

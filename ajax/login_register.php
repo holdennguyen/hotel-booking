@@ -24,7 +24,7 @@ if(isset($_POST['register'])) {
     }
 
     // Insert user information into the database
-    $query = "INSERT INTO `user_cred` (`name`, `email`, `phonenum`, `address`, `pincode`, `dob`, `profile`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $query = "INSERT INTO `user_cred` (`name`, `email`, `phonenum`, `address`, `pincode`, `dob`, `profile`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $values = [$data['name'], $data['email'], $data['phonenum'], $data['address'], $data['pincode'], $data['dob'], $data['profile'], password_hash($data['pass'], PASSWORD_DEFAULT)];
     if(insert($query, $values, 'sssssss')) {
         echo 'registration_success';
@@ -44,9 +44,9 @@ if(isset($_POST['login'])) {
 
     if(mysqli_num_rows($res) == 1) {
         $row = mysqli_fetch_assoc($res);
-
+        
         // Verify password
-        if(password_verify($data['pass'], $row['password'])) {
+        if($data['pass'] == $row['password']) {
             session_start();
             $_SESSION['login'] = true;
             $_SESSION['uId'] = $row['id'];

@@ -157,10 +157,10 @@
 
   <?php 
     if(isset($_GET['cancel_status'])){
-      alert('success','Booking Cancelled!');
+      alert('success','Huỷ đặt phòng!');
     }  
     else if(isset($_GET['review_status'])){
-      alert('success','Thank you for rating & review!');
+      alert('success','Cảm ơn bạn đã để lại đánh giá!');
     }  
   ?>
 
@@ -169,7 +169,7 @@
   <script>
     function cancel_booking(id)
     {
-      if(confirm('Are you sure to cancel booking?'))
+      if(confirm('Bạn có chắc muốn huỷ đặt phòng này?'))
       {        
         let xhr = new XMLHttpRequest();
         xhr.open("POST","ajax/cancel_booking.php",true);
@@ -180,7 +180,7 @@
             window.location.href="bookings.php?cancel_status=true";
           }
           else{
-            alert('error','Cancellation Failed!');
+            alert('error','Huỷ đặt phòng không thành công!');
           }
         }
 
@@ -221,7 +221,7 @@
           var modal = bootstrap.Modal.getInstance(myModal);
           modal.hide();
   
-          alert('error',"Rating & Review Failed!");
+          alert('error',"Đánh giá thất bại!");
         }
       }
 

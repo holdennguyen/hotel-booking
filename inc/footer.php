@@ -110,28 +110,28 @@
 
     xhr.onload = function(){
       if(this.responseText == 'pass_mismatch'){
-        alert('error',"Password Mismatch!");
+        alert('error',"Mật khẩu không trùng khớp!");
       }
       else if(this.responseText == 'email_already'){
-        alert('error',"Email is already registered!");
+        alert('error',"Email đã được đăng ký!");
       }
       else if(this.responseText == 'phone_already'){
-        alert('error',"Phone number is already registered!");
+        alert('error',"Số điện thoại đã được đăng ký!");
       }
       else if(this.responseText == 'inv_img'){
-        alert('error',"Only JPG, WEBP & PNG images are allowed!");
+        alert('error',"Chỉ hỗ trợ định dạng JPG, WEBP & PNG!");
       }
       else if(this.responseText == 'upd_failed'){
-        alert('error',"Image upload failed!");
+        alert('error',"Tải lên hình ảnh thất bại!");
       }
       else if(this.responseText == 'mail_failed'){
-        alert('error',"Cannot send confirmation email! Server down!");
+        alert('error',"Hệ thống đang bảo trì, không thể gửi email xác nhận!");
       }
       else if(this.responseText == 'ins_failed'){
-        alert('error',"Registration failed! Server down!");
+        alert('error',"Đăng ký thất bại! Hệ thống đang bảo trì!");
       }
       else{
-        alert('success',"Registration successful!");
+        alert('success',"Đăng ký thành công!");
         register_form.reset();
       }
     }
@@ -151,10 +151,10 @@
         body: data
     }).then(response => response.text()).then(result => {
         if(result === 'login_success') {
-            alert('Login successful!');
+            alert('Đăng nhập thành công!');
             window.location.href = 'index.php';
         } else {
-            alert('Login failed: ' + result);
+            alert('Đăng nhập thất bại: ' + result);
         }
     });
   });
@@ -206,7 +206,7 @@
       window.location.href='confirm_booking.php?id='+room_id;
     }
     else{
-      alert('error','Please login to book room!');
+      alert('error','Vui lòng đăng nhập để đặt phòng!');
     }
   }
 
