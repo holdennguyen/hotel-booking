@@ -1,15 +1,13 @@
 # VIETCHILL - HOTEL BOOKING WEBSITE
 <br>
-<details>
-<summary>Table of Contents</summary>
+
+### Table of Contents
 
 - [Abstract](#abstract)
 - [Software Requirements](#software-requirements)
 - [Instructions](#instructions)
 - [Screenshots](#screenshots)
-- [Contributors](#contributors)
-
-</details>
+- [Reference](#reference)
 
 ## ABSTRACT
 <p align="justify">Các trang web đặt phòng khách sạn là một bài tập thực hành hữu ích dành cho sinh viên ngành CNTT muốn học và rèn luyện kỹ năng lập trình web. Đây là ứng dụng web cho phép người dùng tìm kiếm và đặt phòng khách sạn trực tuyến, với các chức năng phổ biến như tìm kiếm theo vị trí, giá cả, tiện nghi và đặt phòng trực tiếp qua giao diện website.</p>
@@ -92,7 +90,9 @@ Tải tệp nén gzip "vietchill"
 
 ## Hình Minh Hoạ
 
-<b> Trang chủ: </b>
+<details>
+<summary><b> Trang chủ: </b></summary>
+<br>
 
 ![index](/images/screenshots/home.png)
 
@@ -104,21 +104,45 @@ Tải tệp nén gzip "vietchill"
 
 ![index](/images/screenshots/rooms-details.png)
 
-<b> Đăng ký: </b>
+</details>
+
+<br>
+
+<details>
+<summary><b> Đăng ký: </b></summary>
+<br>
 
 ![register](/images/screenshots/register.png)
 
-<b> Đăng nhập: </b>
+</details>
+
+<br>
+
+<details>
+<summary><b> Đăng nhập: </b></summary>
+<br>
 
 ![login](/images/screenshots/login.png)
 
-<b> Hồ sơ người dùng: </b>
+</details>
+
+<br>
+
+<details>
+<summary><b> Hồ sơ người dùng: </b></summary>
+<br>
 
 ![profile](/images/screenshots/profile.png)
 
 ![booking](/images/screenshots/booking.png)
 
-<b> Admin Dashboard: </b>
+</details>
+
+<br>
+
+<details>
+<summary><b> Admin Dashboard: </b></summary>
+<br>
 
 ![admin](/images/screenshots/admin.png)
 
@@ -130,8 +154,8 @@ Tải tệp nén gzip "vietchill"
 
 ![admin](/images/screenshots/page-setting.png)
 
-<br>
+</details>
 
-## Tham khảo
+## References
 
-<a href="https://github.com/tj-webdev/Hotel-Booking-Website-Assets"> Hotel-Booking-Website-Assets </a>
+<a id="reference" href="https://github.com/tj-webdev/Hotel-Booking-Website-Assets"> Hotel-Booking-Website-Assets </a>
