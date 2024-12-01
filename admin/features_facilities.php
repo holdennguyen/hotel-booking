@@ -27,7 +27,7 @@
             <div class="d-flex align-items-center justify-content-between mb-3">
               <h5 class="card-title m-0">Không gian</h5>
               <button type="button" class="btn btn-dark shadow-none btn-sm" data-bs-toggle="modal" data-bs-target="#feature-s">
-                <i class="bi bi-plus-square"></i> Add
+                <i class="bi bi-plus-square"></i> Thêm
               </button>
             </div>
 
@@ -52,9 +52,9 @@
           <div class="card-body">
 
             <div class="d-flex align-items-center justify-content-between mb-3">
-              <h5 class="card-title m-0">Facilities</h5>
+              <h5 class="card-title m-0">Tiện ích</h5>
               <button type="button" class="btn btn-dark shadow-none btn-sm" data-bs-toggle="modal" data-bs-target="#facility-s">
-                <i class="bi bi-plus-square"></i> Add
+                <i class="bi bi-plus-square"></i> Thêm
               </button>
             </div>
 
@@ -90,17 +90,17 @@
       <form id="feature_s_form">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Add Feature</h5>
+            <h5 class="modal-title">Thêm Không Gian</h5>
           </div>
           <div class="modal-body">
             <div class="mb-3">
-              <label class="form-label fw-bold">Name</label>
+              <label class="form-label fw-bold">Tên</label>
               <input type="text" name="feature_name" class="form-control shadow-none" required>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="reset" class="btn text-secondary shadow-none" data-bs-dismiss="modal">CANCEL</button>
-            <button type="submit" class="btn custom-bg text-white shadow-none">SUBMIT</button>
+            <button type="reset" class="btn text-secondary shadow-none" data-bs-dismiss="modal">Huỷ</button>
+            <button type="submit" class="btn custom-bg text-white shadow-none">Cập nhật</button>
           </div>
         </div>
       </form>
@@ -114,11 +114,11 @@
       <form id="facility_s_form">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Add Facility</h5>
+            <h5 class="modal-title">Thêm Tiện Ích</h5>
           </div>
           <div class="modal-body">
             <div class="mb-3">
-              <label class="form-label fw-bold">Name</label>
+              <label class="form-label fw-bold">Tên</label>
               <input type="text" name="facility_name" class="form-control shadow-none" required>
             </div>
             <div class="mb-3">
@@ -126,13 +126,13 @@
               <input type="file" name="facility_icon" accept=".svg" class="form-control shadow-none" required>
             </div>
             <div class="mb-3">
-              <label class="form-label">Description</label>
+              <label class="form-label">Mô tả</label>
               <textarea name="facility_desc" class="form-control shadow-none" rows="3"></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="reset" class="btn text-secondary shadow-none" data-bs-dismiss="modal">CANCEL</button>
-            <button type="submit" class="btn custom-bg text-white shadow-none">SUBMIT</button>
+            <button type="reset" class="btn text-secondary shadow-none" data-bs-dismiss="modal">Huỷ</button>
+            <button type="submit" class="btn custom-bg text-white shadow-none">Cập nhật</button>
           </div>
         </div>
       </form>
