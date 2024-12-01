@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php require('inc/links.php'); ?>
-  <title><?php echo $settings_r['site_title'] ?> - Thông tin cá nhân</title>
+  <title><?php echo $settings_r['site_title'] ?> - Hồ sơ cá nhân</title>
 </head>
 <body class="bg-light">
 
@@ -34,7 +34,7 @@
         <div style="font-size: 14px;">
           <a href="index.php" class="text-secondary text-decoration-none">Trang chủ</a>
           <span class="text-secondary"> > </span>
-          <a href="#" class="text-secondary text-decoration-none">Thông tin cá nhân</a>
+          <a href="#" class="text-secondary text-decoration-none">Hồ sơ cá nhân</a>
         </div>
       </div>
 

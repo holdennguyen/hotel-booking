@@ -58,13 +58,13 @@
     <div class="row">
 
       <div class="col-12 my-5 mb-4 px-4">
-        <h2 class="fw-bold">CONFIRM BOOKING</h2>
+        <h4 class="mt-4 fw-bold h-font">XÁC NHẬN ĐẶT PHÒNG</h4>
         <div style="font-size: 14px;">
-          <a href="index.php" class="text-secondary text-decoration-none">HOME</a>
+          <a href="index.php" class="text-secondary text-decoration-none">Trang chủ</a>
           <span class="text-secondary"> > </span>
-          <a href="rooms.php" class="text-secondary text-decoration-none">ROOMS</a>
+          <a href="rooms.php" class="text-secondary text-decoration-none">Danh sách phòng</a>
           <span class="text-secondary"> > </span>
-          <a href="#" class="text-secondary text-decoration-none">CONFIRM</a>
+          <a href="#" class="text-secondary text-decoration-none">Xác nhận đặt phòng</a>
         </div>
       </div>
 
@@ -96,37 +96,37 @@
         <div class="card mb-4 border-0 shadow-sm rounded-3">
           <div class="card-body">
             <form action="pay_now.php" method="POST" id="booking_form">
-              <h6 class="mb-3">BOOKING DETAILS</h6>
+              <h6 class="mb-3">Thông tin chi tiết</h6>
               <div class="row">
                 <div class="col-md-6 mb-3">
-                  <label class="form-label">Name</label>
+                  <label class="form-label">Tên</label>
                   <input name="name" type="text" value="<?php echo $user_data['name'] ?>" class="form-control shadow-none" required>
                 </div>
                 <div class="col-md-6 mb-3">
-                  <label class="form-label">Phone Number</label>
+                  <label class="form-label">Số điện thoại</label>
                   <input name="phonenum" type="number" value="<?php echo $user_data['phonenum'] ?>" class="form-control shadow-none" required>
                 </div>
                 <div class="col-md-12 mb-3">
-                  <label class="form-label">Address</label>
+                  <label class="form-label">Địa chỉ</label>
                   <textarea name="address" class="form-control shadow-none" rows="1" required><?php echo $user_data['address'] ?></textarea>
                 </div>
                 <div class="col-md-6 mb-3">
-                  <label class="form-label">Check-in</label>
+                  <label class="form-label">Nhận phòng</label>
                   <input name="checkin" onchange="check_availability()" type="date" class="form-control shadow-none" required>
                 </div>
                 <div class="col-md-6 mb-4">
-                  <label class="form-label">Check-out</label>
+                  <label class="form-label">Trả phòng</label>
                   <input name="checkout" onchange="check_availability()" type="date" class="form-control shadow-none" required>
                 </div>
                 
                 <div class="col-12">
                   <div class="spinner-border text-info mb-3 d-none" id="info_loader" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                    <span class="visually-hidden">Xin vui lòng chờ...</span>
                   </div>
 
-                  <h6 class="mb-3 text-danger" id="pay_info">Provide check-in & check-out date !</h6>
+                  <h6 class="mb-3 text-danger" id="pay_info">Chọn ngày nhận phòng và trả phòng!</h6>
 
-                  <button name="pay_now" class="btn w-100 text-white custom-bg shadow-none mb-1" disabled>Pay Now</button>
+                  <button name="pay_now" class="btn w-100 text-white custom-bg shadow-none mb-1" disabled>Thanh toán</button>
                 </div>
               </div>
             </form>

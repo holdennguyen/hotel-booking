@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php require('inc/links.php'); ?>
-  <title><?php echo $settings_r['site_title'] ?> - Đặt phòng</title>
+  <title><?php echo $settings_r['site_title'] ?> - Lịch sử đặt phòng</title>
 </head>
 <body class="bg-light">
 
@@ -22,11 +22,11 @@
     <div class="row">
 
       <div class="col-12 my-5 px-4">
-        <h2 class="fw-bold">BOOKINGS</h2>
+        <h2 class="fw-bold h-font">Lịch sử đặt phòng</h2>
         <div style="font-size: 14px;">
-          <a href="index.php" class="text-secondary text-decoration-none">HOME</a>
+          <a href="index.php" class="text-secondary text-decoration-none">Trang chủ</a>
           <span class="text-secondary"> > </span>
-          <a href="#" class="text-secondary text-decoration-none">BOOKINGS</a>
+          <a href="#" class="text-secondary text-decoration-none">Lịch sử đặt phòng</a>
         </div>
       </div>
 
@@ -37,7 +37,8 @@
           INNER JOIN `booking_details` bd ON bo.booking_id = bd.booking_id
           WHERE ((bo.booking_status='booked') 
           OR (bo.booking_status='cancelled')
-          OR (bo.booking_status='payment failed')) 
+          OR (bo.booking_status='payment failed'))
+          OR (bo.booking_status='pending')
           AND (bo.user_id=?)
           ORDER BY bo.booking_id DESC";
 
@@ -57,7 +58,7 @@
             $status_bg = "bg-success";
             if($data['arrival']==1)
             {
-              $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
+              // $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
  
               if($data['rate_review']==0){
                 $btn.="<button type='button' onclick='review_room($data[booking_id],$data[room_id])' data-bs-toggle='modal' data-bs-target='#reviewModal' class='btn btn-dark btn-sm shadow-none ms-2'>Rate & Review</button>";
@@ -75,13 +76,13 @@
               $btn="<span class='badge bg-primary'>Refund in process!</span>";
             }
             else{
-              $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
+              // $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
             }
           }
           else
           {
             $status_bg = "bg-warning";
-            $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
+            // $btn="<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Download PDF</a>";
           }
 
           echo<<<bookings
