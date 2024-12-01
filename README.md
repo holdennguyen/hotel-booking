@@ -62,15 +62,13 @@
   
 ## INSTRUCTIONS
 
-Tải tệp nén gzip "vietchill"
-
 1. Tải và cài đặt <a href="https://www.apachefriends.org/download.html">XAMPP</a>
 
 2. Tải tệp gzip "vietchill" từ github repo này, giải nén và copy toàn bộ thư mục
 
 4. Paste vào thư mục 'htdocs' trong thư mục gốc cài xampp. (Windows: C:\Program Files\xampp\htdocs hoặc MacOS: /Applications/XAMPP)
 
-5. Mở PHPMyAdmin in trình duyệt `http://localhost/phpmyadmin`
+5. Mở PHPMyAdmin trong trình duyệt `http://localhost/phpmyadmin`
 
 6. Tạo database "vietchill"
 
