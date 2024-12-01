@@ -305,9 +305,6 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
-    <div class="col-lg-12 text-center mt-5">
-      <a href="about.php" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">Tìm hiểu thêm >>></a>
-    </div>
   </div>
 
   <!-- Reach us -->
@@ -326,7 +323,7 @@
             <i class="bi bi-telephone-fill"></i> +<?php echo $contact_r['pn1'] ?>
           </a>
         </div>
-        <div class="bg-white p-4 rounded mb-4">
+        <div class="bg-white p-4 rounded mb-2">
           <h5>Theo dõi chúng tôi</h5>
           <?php 
             if($contact_r['tw']!=''){
@@ -352,6 +349,9 @@
             <i class="bi bi-instagram me-1"></i> Instagram
             </span>
           </a>
+        </div>
+        <div class="p-4 rounded">
+          <a href="about.php" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">Tìm hiểu thêm >>></a>
         </div>
       </div>
     </div>

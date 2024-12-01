@@ -24,9 +24,9 @@ if(isset($_POST['register'])) {
     }
 
     // Insert user information into the database
-    $query = "INSERT INTO `user_cred` (`name`, `email`, `phonenum`, `address`, `pincode`, `dob`, `profile`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
-    $values = [$data['name'], $data['email'], $data['phonenum'], $data['address'], $data['pincode'], $data['dob'], $data['profile'], $data['pass']];
-    if(insert($query, $values, 'ssssssss')) {
+    $query = "INSERT INTO `user_cred` (`name`, `email`, `phonenum`, `address`, `pincode`, `dob`, `password`) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $values = [$data['name'], $data['email'], $data['phonenum'], $data['address'], $data['pincode'], $data['dob'], $data['pass']];
+    if(insert($query, $values, 'sssssss')) {
         echo 'registration_success';
     } else {
         echo 'registration_failed';

@@ -116,7 +116,7 @@
               </div>
               <div class="col-md-6 mb-3">
                 <label class="form-label">Ảnh đại diện</label>
-                <input name="profile" type="file" accept=".jpg, .jpeg, .png, .webp" class="form-control shadow-none" required>
+                <input name="profile" type="file" accept=".jpg, .jpeg, .png, .webp" class="form-control shadow-none">
               </div>
               <div class="col-md-12 mb-3">
                 <label class="form-label">Địa chỉ</label>
